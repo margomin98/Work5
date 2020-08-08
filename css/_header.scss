@@ -1,0 +1,45 @@
+
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+
+
+.wrap
+{
+    
+ margin: 0 auto;
+ max-width: 960px;
+ padding-top: 30px;
+ 
+}
+.cart{
+    padding-right: 42px;
+}
+.flip, .logonew
+{
+    display: none;
+}
+
+.option{
+
+ a {
+    color: #3F5D45;
+}
+& li,& ul{
+    display: flex;
+    justify-content: space-evenly;
+      margin-right:42px; 
+    
+}
+}
+.option,.header{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+

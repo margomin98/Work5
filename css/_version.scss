@@ -1,0 +1,63 @@
+@media(max-width: 400px) {
+    
+  .header{
+      padding-top:33px;
+  }
+
+  .click{
+  left:0;
+  position: relative;
+  width:305px;
+}
+.checkoutbg{
+  padding-bottom:0;
+    width: auto;
+    height: 100%;
+}
+.check{
+     width: 190px;
+    height: auto;
+   right:20%;
+  }
+
+.success{
+    right:20%;
+  }
+   
+  
+  .flip,.logonew {
+       
+        display: block;
+    }
+    .logonew{
+        height: 24px;
+    }
+    .flip{
+        padding-left: 30px;
+    }
+    .cart{
+        display: block;
+      padding-right: 16px;
+    }
+    .logo, .choose ul,.slogan,.option ul,{
+        display: none;
+    }
+   
+    .footer,.subscribe{
+        flex-direction: column;
+      
+    }
+    .left img{
+        padding-bottom:39.5px; 
+
+        }
+    form{
+        padding-top: 30px;
+    }
+ 
+   .contact{
+       font-size: 16px;
+   }
+   
+    
+}

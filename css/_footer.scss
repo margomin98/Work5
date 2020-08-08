@@ -1,0 +1,95 @@
+.subscribe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3F5D45;
+    padding: 30px 10%;
+
+    & img{
+        display: block;
+        height: 40px;
+        padding-right: 20px;
+    }
+    & p{
+        color: #EAF0ED;
+        font-size: 24px;
+        line-height: 33px; 
+    }
+}
+
+
+
+.sign {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+   
+}
+form{
+    display: flex;
+    justify-content: space-between;
+}
+.mail{
+    background: #EAF0ED url(https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/mail-24px.png?raw=true) no-repeat 20px 20px;
+    padding: 16px 16px 16px 64px;
+    line-height: 24px;
+    border: none;
+}
+.submit{
+    background-color: #FFE180;
+    padding: 20px 24px;
+}
+
+.footer{
+    padding: 30px 10%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #EAF0ED;
+flex-direction: row;
+
+}
+
+.left img{
+
+    height: 26.6px;
+    padding-top:38.9px;
+    padding-bottom:115.5px;
+}
+.contact{
+   font-size:20px;
+    line-height: 30px;
+  
+}
+.icon img{
+    height: 32px;
+    padding-right: 8px;
+    padding-top: 32px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    & p{
+    
+        color: #3F5D3F;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 16px;
+    }
+}
+
+.slogan{
+    display: flex;
+    flex-direction: row-reverse;
+ & p{
+    color: #3F5D45;
+    font-family: 'Noto Serif TC', 'Microsoft MingLiU', serif;
+    font-size: 22px;
+    line-height: 28px;
+    writing-mode: vertical-rl;
+    padding-bottom: 130px;
+}
+& p:last-of-type{
+    padding-top: 10px;
+}
+}
+
