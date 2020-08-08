@@ -23,13 +23,15 @@ right: 43%;
     bottom:308px;
   }
   .click{
-      display: block;
-    background: #FFE180;
-    color:$green;
-    width: 222px;
-    text-align: center;
-    font-size: 24px;
-    padding:35px;
+        color:$green;
+        padding:35px;
        left:540px;
        bottom: 100px;
+    text-align: center;
+    font-size: 24px;
+    background: #FFE180;
+    width: 222px;
   }
+  .click a:hover{
+    display: block;
+}

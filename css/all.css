@@ -117,15 +117,18 @@ img {
 }
 
 .click {
-  display: block;
-  background: #FFE180;
   color: #3F5D45;
-  width: 222px;
-  text-align: center;
-  font-size: 24px;
   padding: 35px;
   left: 540px;
   bottom: 100px;
+  text-align: center;
+  font-size: 24px;
+  background: #FFE180;
+  width: 222px;
+}
+
+.click a:hover {
+  display: block;
 }
 
 .subscribe {
