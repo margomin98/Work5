@@ -124,8 +124,8 @@ img {
   text-align: center;
   font-size: 24px;
   padding: 35px;
-  left: 39%;
-  bottom: 12%;
+  left: 540px;
+  bottom: 100px;
 }
 
 .subscribe {
@@ -229,6 +229,7 @@ form {
     left: 0;
     position: relative;
     width: 305px;
+    bottom: 0;
   }
 
   .checkoutbg {
