@@ -2,27 +2,33 @@ $green:#3F5D45;
 
 
   
-
+.image{
+    background-position:center;
+    background-repeat: no-repeat;
+   width:940px;
+   height:500px;
+    background-image: url(https://resizeimage.net/mypic/lT4UtdgmzKSNV01K/WrBoo/checkout.jpg);
+}
 
 .success,.check,.click{
     position: absolute;
   }
 
   .success{
-    bottom:35%;
+    bottom:45%;
 right: 43%;
     width: 190px;
     height: 46px;
   }
   .check{
     right:43%;
-    bottom:308px;
+    bottom:380px;
   }
   .click{
     background-color: #FFE180;
         padding:35px;
        left:540px;
-       bottom: 100px;
+       bottom: 160px;
     text-align: center;
     font-size: 24px;
     width: 222px;

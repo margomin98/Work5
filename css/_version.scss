@@ -4,6 +4,14 @@
       padding-top:33px;
   }
 
+  .image{
+    background-position:center;
+    background-repeat: no-repeat;
+   width:375px;
+   height:518px;
+    background-image: url(https://bit.ly/2P7GhNd);
+}
+
   .click{
   left:0;
   width:305px;
@@ -12,13 +20,15 @@
 
 
 .check{
+    bottom:320px;
      width: 190px;
     height: auto;
-   right:20%;
+   right:22%;
   }
 
 .success{
-    right:20%;
+    bottom:250px;
+    right:22%;
   }
    
   
@@ -40,8 +50,11 @@
         display: none;
     }
    
-    .footer,.subscribe{
-        flex-direction: column;
+    .footer{
+        padding-top:0px;
+
+    .subscribe,.contact{
+        flex-direction: column;}
       
     }
     .left img{
