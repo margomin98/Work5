@@ -98,12 +98,14 @@ img {
 }
 
 .image {
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 940px;
-  height: 500px;
-  background-image: url(https://resizeimage.net/mypic/lT4UtdgmzKSNV01K/WrBoo/checkout.jpg);
-}
+  display: flex;
+  align-content: center;
+    background-position:center;
+    background-repeat: no-repeat;
+   width:940px;
+   height:500px;
+    background-image: url(/image/checkout.jpg);
+  }
 
 .success, .check, .click {
   position: absolute;

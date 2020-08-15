@@ -3,11 +3,12 @@ $green:#3F5D45;
 
   
 .image{
+  display: flex;
     background-position:center;
     background-repeat: no-repeat;
    width:940px;
    height:500px;
-    background-image: url(https://resizeimage.net/mypic/lT4UtdgmzKSNV01K/WrBoo/checkout.jpg);
+    background-image: url(/image/checkout.jpg);
 }
 
 .success,.check,.click{
@@ -32,6 +33,6 @@ right: 43%;
     text-align: center;
     font-size: 24px;
     width: 222px;
-    color: #3F5D45;
+    color: $green;
   }
 
