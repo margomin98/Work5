@@ -1,0 +1,424 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+body {
+	line-height: 1;
+ font-weight:bold;
+   color:#3F5D45;
+  font-family: "Noto Sans TC", sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+
+
+.wrap
+{
+    
+ margin: 0 auto;
+ max-width: 960px;
+ padding-top: 30px;
+ 
+}
+.cart{
+    padding-right: 42px;
+}
+.flip, .logonew
+{
+    display: none;
+}
+
+.option a {
+    color: #3F5D45;
+}
+
+.option li,.option ul{
+    display: flex;
+    justify-content: space-evenly;
+      margin-right:42px; 
+    
+  }
+  .option,.header{
+        display: flex;
+      justify-content: space-between;
+      align-items: center;
+    
+  }
+
+.banner{
+
+margin-bottom: 60px;
+margin-top: 30px;
+  
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+   padding-right:20px;
+}
+
+
+.item {
+
+    width:70%;
+     flex-wrap: wrap;
+flex-direction: row-reverse;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.category {
+    width: 25%;
+    margin-right: 5%;
+    text-align: center;
+      display: block;
+    font-size: 24px;
+}
+
+.category ul li:hover{
+    background-color: #EAF0ED;
+}
+.category h1{
+    border:1px #EAF0ED solid;
+    padding:16px 64px;
+    background-color:#3F5D45;
+    color:#EAF0ED;
+    
+    }
+    
+    .category ul li{
+   
+    border:1px #EAF0ED solid;
+    padding:16px;
+    font-size:px;
+}
+
+
+.favorite{
+    display: block;
+    position: absolute;
+    top: 19px; 
+    right:22px;
+
+}
+.tag{
+    position: absolute;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px 10px;
+    color: #EAF0ED;
+    background-color: #3F5D45;
+}
+.dessert {
+    
+/*  修改開始  */
+  width: 45%;
+/*  修改結束  */
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.tag .favorite {
+    position: absolute;
+    top: 19px;
+    left: 260px;
+}
+
+.dessert .tag {
+   
+   position: absolute;
+    font-size: 16px;
+    line-height: 20px;
+    width: 20px;
+    background: #3F5D45;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    top: 0px;
+    left: 20px;
+}
+
+.dessert a {
+ display: block;
+    font-size: 17px;
+    line-height: 33px;
+      text-align: center;
+    color: #3F5D45;
+    padding: 16px 90px;
+    background: #EAF0ED;
+
+    
+}
+
+
+
+.name{
+    display: flex;
+    justify-content: space-between;
+    font-weight: light;
+    border-left: 1px solid #EAF0ED;
+    border-right: 1px solid #EAF0ED;
+}
+.name h1{
+    padding:14px 33px;
+    border-right: 1px solid #EAF0ED;
+}
+.name p{
+    padding:14px 20px 25px;
+}
+
+.pages img{
+    padding:18px;
+}
+.pages ul{
+    display: flex;
+    border: 1px solid #EAF0ED;
+}
+
+.pages{
+   
+    display: flex;
+ padding-left: 630px;
+width: 300px;
+    height: 60px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.pages p a {
+  text-decoration:none;
+    padding: 20px 24px;
+    display: block;
+    color: #3F5D45;
+}
+
+.pages p a:hover {
+    color: white;
+    background: #3F5D45;
+}
+
+
+.subscribe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3F5D45;
+    padding: 30px 10%;
+}
+
+.subscribe img{
+    display: block;
+    height: 40px;
+    padding-right: 20px;
+}
+.subscribe p{
+    color: #EAF0ED;
+    font-size: 24px;
+    line-height: 33px;
+   
+}
+
+.sign {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+   
+}
+form{
+    display: flex;
+    justify-content: space-between;
+}
+.mail{
+    background: #EAF0ED url(https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/mail-24px.png?raw=true) no-repeat 20px 20px;
+    padding: 16px 16px 16px 64px;
+    line-height: 24px;
+    border: none;
+}
+.submit{
+    background-color: #FFE180;
+    padding: 20px 24px;
+}
+
+.footer{
+    padding: 30px 10%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #EAF0ED;
+flex-direction: row;
+
+}
+
+.left img{
+
+    height: 26.6px;
+    padding-top:38.9px;
+    padding-bottom:115.5px;
+}
+.contact{
+   font-size:20px;
+    line-height: 30px;
+  
+}
+.icon img{
+    height: 32px;
+    padding-right: 8px;
+    padding-top: 32px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.slogan{
+    display: flex;
+    flex-direction: row-reverse;
+ 
+}
+.slogan p{
+    color: #3F5D45;
+    font-family: 'Noto Serif TC', 'Microsoft MingLiU', serif;
+    font-size: 22px;
+    line-height: 28px;
+    writing-mode: vertical-rl;
+    padding-bottom: 130px;
+
+}
+.slogan p:last-of-type{
+    padding-top: 10px;
+}
+
+.right p{
+    
+    color: #3F5D3F;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+
+
+@media only screen and (max-width: 940px) {
+    .pages{
+        padding: 30px;
+    margin:auto;
+    }
+  .header{
+      padding-top:33px;
+  }
+    .favorite{
+      top: 30px;
+      right: 22.2px;
+  }
+    .flip,.logonew {
+       
+        display: block;
+    }
+    .logonew{
+        height: 24px;
+    }
+    .flip{
+        padding-left: 30px;
+    }
+    .cart{
+        display: block;
+      padding-right: 16px;
+    }
+    .logo, .choose ul,.slogan,.option ul{
+        display: none;
+    }
+   
+    .footer,.subscribe{
+        flex-direction: column;
+      
+    }
+    .left img{
+
+        padding-bottom:39.5px; 
+
+        }
+    form{
+        padding-top: 30px;
+    }
+ 
+   .contact{
+       font-size: 16px;
+   }
+   .category{
+
+        width: 90%;
+       margin: 0 auto;
+  
+    }
+   
+ .content{
+padding-top: 30px;
+
+  flex-direction: column;
+  align-items: center;
+
+ }
+
+ .product,.dessert,.name,.tag{
+
+      width: 100%;  
+      margin-top: 10px;
+
+  }
+
+    
+}
+
+
