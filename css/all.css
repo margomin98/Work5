@@ -64,9 +64,12 @@ img {
   max-width: 100%;
 }
 
+.logo {
+  width: 100px;
+}
+
 .wrap {
   margin: 0 auto;
-  max-width: 960px;
   padding-top: 30px;
 }
 
@@ -99,13 +102,12 @@ img {
 
 .image {
   display: flex;
-  align-content: ;
-    background-position:center;
-    background-repeat: no-repeat;
-   width:940px;
-   height:500px;
-    background-image: url(https://i.imgur.com/W7tkM0O.jpg);
-  }
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 940px;
+  height: 500px;
+  background-image: url(https://i.imgur.com/W7tkM0O.jpg);
+}
 
 .success, .check, .click {
   position: absolute;
@@ -209,7 +211,7 @@ form {
   flex-direction: column;
 }
 .right p {
-  color: #3F5D3F;
+  color: #3F5D45;
   font-family: "Times New Roman", Times, serif;
   font-size: 16px;
 }
